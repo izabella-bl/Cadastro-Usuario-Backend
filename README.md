@@ -3,7 +3,6 @@
 
 Este projeto é uma API REST desenvolvida com Java e Spring Boot para gerenciamento de usuários. Inclui funcionalidades de registro, autenticação com JWT, listagem, atualização e exclusão de usuários, além de documentação Swagger e testes automatizados com TDD, BDD e ATDD.
 
----
 
 ## Tecnologias utilizadas
 
@@ -18,7 +17,6 @@ Este projeto é uma API REST desenvolvida com Java e Spring Boot para gerenciame
 - JUnit 5 (TDD & ATDD)
 - Swagger / OpenAPI 3
 
----
 
 ## Estrutura de pastas
 
@@ -40,8 +38,6 @@ src/
 │       └── service/
 ```
 
----
-
 ## Como executar o projeto
 
 ### Pré-requisitos
@@ -58,7 +54,6 @@ src/
 ./mvnw spring-boot:run
 ```
 
----
 
 ## Endpoints principais
 
@@ -71,20 +66,18 @@ src/
 | PUT    | `/api/usuarios/{id}`     | Atualiza usuário por ID         |
 | DELETE | `/api/usuarios/{id}`     | Deleta usuário por ID           |
 
----
 
 ## Testes automatizados
 
-- ✅ **TDD** com JUnit 5  
-- ✅ **BDD** com Cucumber  
+- TDD com JUnit 5  
+- BDD com Cucumber  
 
 Execute os testes com:
 
-```bash
+bash
 ./mvnw test
-```
 
----
+
 
 ## Documentação Swagger
 
@@ -100,7 +93,6 @@ Ou a especificação OpenAPI:
 http://localhost:8099/v3/api-docs
 ```
 
----
 
 ## Segurança
 
@@ -108,7 +100,6 @@ http://localhost:8099/v3/api-docs
 - Validação de email, senha e confirmações via Bean Validation (`@Valid`)  
 - Retorno de erros padronizados (`403`, `404`, `400`, etc.)  
 
----
 
 ## Autor(a)
 
