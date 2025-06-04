@@ -48,6 +48,8 @@ src/
 
 - Java 17
 - Maven
+- PostegreSQL
+- IDE
 
 ### Comandos
 
