@@ -83,7 +83,7 @@ public class UsuarioService {
         }
 
         String token = jwtService.gerarToken(usuario);
-        return new UsuarioTokenDTO(token);
+        return new UsuarioTokenDTO(token,usuario.getId());
     }
 }
 

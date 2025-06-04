@@ -6,6 +6,9 @@ import io.swagger.v3.oas.annotations.media.Schema;
 public record UsuarioTokenDTO(
 
         @Schema(description = "Token JWT gerado após login", example = "eyJhbGciOiJIUzI1NiIsInR5cCI6...")
-        String token
+        String token,
+
+        @Schema(description = "Id do usuário", example = "1")
+        Long id
 
 ) {}
